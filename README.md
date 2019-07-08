@@ -28,6 +28,8 @@ curl --request POST \
 }'
 ```
 
+---
+
 `PUT`: `/projects/:id`
 
 Update a project
@@ -39,6 +41,8 @@ curl --request PUT \
 	"title": "An example Project"
 }'
 ```
+
+---
 
 `POST`: `/projects/:id/tasks`
 
@@ -52,6 +56,8 @@ curl --request POST \
 }'
 ```
 
+---
+
 `GET`: `/projects`
 
 List projects
@@ -59,6 +65,8 @@ List projects
 curl --request GET \
   --url http://localhost:3000/projects
 ```
+
+---
 
 `DELETE`: `/projects/:id`
 
